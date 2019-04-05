@@ -7,8 +7,8 @@ Contoh:
 	4! = 24
 	5! = 120
 
-### Jawab
-[Source Code](/soal1/soal1.c)
+	### Jawab
+	[Source Code](/soal1/soal1.c)
 
 * `int main(int argc, char * argv[])` untuk `./faktorial 5 3 4`
 
@@ -29,8 +29,8 @@ Contoh:
 			pthread_create(&(tid[i]),NULL,faktorial,(char *) argv[i]);
 			pthread_join(tid[i],NULL);
 		}
-	} ```
-
+	}
+	```
 	Untuk membuat Thread sebanyak inputan
 	
 * ```c
@@ -40,8 +40,8 @@ Contoh:
 	     			fact=fact*i;}
 	 				printf("Factorial of %s is %ld\n", p,fact);
 	 				return NULL;
-	 }```
-	
+	 }
+	```
 	Fungsi yang menghitung faktorial
 
 2. Pada suatu hari ada orang yang ingin berjualan 1 jenis barang secara private, dia memintamu membuat program C dengan spesifikasi sebagai berikut:
