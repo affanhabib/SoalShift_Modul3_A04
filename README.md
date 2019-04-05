@@ -10,11 +10,11 @@ Contoh:
 ### Jawab
 [Source Code](/soal1/soal1.c)
 
-	* `int main(int argc, char * argv[])` untuk `./faktorial 5 3 4`
+* `int main(int argc, char * argv[])` untuk `./faktorial 5 3 4`
 
-	* `qsort((char *)argv, argc, sizeof(int), compare);` untuk memanggil fungsi sortir inputan dari terkecil ke terbesar
+* `qsort((char *)argv, argc, sizeof(int), compare);` untuk memanggil fungsi sortir inputan dari terkecil ke terbesar
 
-	* ```c
+* ```c
 	int compare (const void *arg1, const void *arg2)
 	{
 		return(strcmp(*(char **)arg1, *(char **)arg2));
@@ -22,7 +22,7 @@ Contoh:
 	```
 	Fungsi untuk menyortir
 	
-	* ```c
+* ```c
 	for (i=0;i<argc;i++) {
 		if (argv[i] != NULL) {
 			pthread_t tid[i];
@@ -33,7 +33,7 @@ Contoh:
 
 	Untuk membuat Thread sebanyak inputan
 	
-	* ```c
+* ```c
 	void* faktorial(char *p) {
 		int i, fact=1;
 	 		for (i = 2; i <= atoi(p); i++){
